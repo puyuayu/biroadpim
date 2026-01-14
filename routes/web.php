@@ -7,3 +7,7 @@ Route::get('/', function () {
 Route::get('/berita/detail', function () {
     return view('berita-detail');
 })->name('berita.detail');
+
+Route::get('/berita', function () {
+    return view('berita.index');
+})->name('berita');

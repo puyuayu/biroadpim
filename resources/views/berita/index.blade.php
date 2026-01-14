@@ -1,0 +1,85 @@
+@extends('layouts.main')
+
+@section('content')
+
+<div class="container my-4">
+
+    <!-- Search & Kategori -->
+    <div class="row mb-4 align-items-center">
+        <div class="col-md-9">
+            <input type="text" class="form-control search-input" placeholder="Cari berita...">
+        </div>
+        <div class="col-md-3 text-end">
+            <select class="form-select">
+                <option selected>Kategori</option>
+                <option>Pemerintahan</option>
+                <option>Kegiatan</option>
+                <option>Pengumuman</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Berita Utama -->
+    <div class="card berita-utama mb-4">
+        <img src="{{ asset('assets/img/berita1.jpg') }}" class="card-img-top">
+        <div class="card-body">
+            <h4 class="fw-bold">
+                Tingkatkan Prestasi Renang, Sekdaprov Marindo Tekankan
+                Pentingnya Skala Prioritas dan Kolaborasi Lintas Sektor
+            </h4>
+            <p class="text-muted">
+                Sekdaprov Marindo Kurniawan menegaskan komitmen Pemerintah Provinsi
+                Lampung dalam memajukan infrastruktur olahraga...
+            </p>
+            <a href="#" class="btn btn-danger btn-sm px-4">
+                Baca Selengkapnya
+            </a>
+        </div>
+    </div>
+
+    <!-- List Berita -->
+    <div class="card berita-list mb-3">
+        <div class="row g-0 align-items-center">
+            <div class="col-md-4">
+                <img src="{{ asset('assets/img/berita2.jpg') }}" class="img-fluid rounded-start">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="fw-bold">
+                        Gubernur Rahmat Mirzani Djausal Hadiri Gala Dinner APEKSI Outlook 2025–2026
+                    </h5>
+                    <p class="text-muted">
+                        Sekdaprov Marindo Kurniawan menegaskan komitmen Pemerintah Provinsi Lampung...
+                    </p>
+                    <a href="#" class="btn btn-danger btn-sm">
+                        Baca Selengkapnya
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card berita-list mb-3">
+        <div class="row g-0 align-items-center">
+            <div class="col-md-4">
+                <img src="{{ asset('assets/img/berita3.jpg') }}" class="img-fluid rounded-start">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="fw-bold">
+                        Pemprov Lampung Dorong Kolaborasi Antar Daerah
+                    </h5>
+                    <p class="text-muted">
+                        Pemerintah Provinsi Lampung terus memperkuat sinergi lintas sektor...
+                    </p>
+                    <a href="#" class="btn btn-danger btn-sm">
+                        Baca Selengkapnya
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@endsection

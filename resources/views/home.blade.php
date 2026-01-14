@@ -16,7 +16,7 @@
 <section class="container my-5">
     <div class="d-flex justify-content-between align-items-center mb-3">
         <h4 class="fw-bold">Berita Terbaru</h4>
-        <a href="#" class="fw-semibold">Lihat Semua →</a>
+        <a href="{{ route('berita') }}" class="btn btn-danger btn-sm">Lihat Semua</a>
     </div>
 
     <div class="row">
