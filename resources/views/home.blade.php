@@ -7,7 +7,7 @@
     <div class="hero-overlay">
         <div class="container">
             <h2>Dua Pejabat Tinggi<br>Pemprov Lampung Dilantik</h2>
-            <a href="#" class="btn btn-danger mt-3">Baca Selengkapnya</a>
+            <a href="{{ route('berita.detail') }}" class="btn btn-danger mt-3">Baca Selengkapnya</a>
         </div>
     </div>
 </section>
@@ -26,7 +26,7 @@
                 <img src="{{ asset('assets/img/berita1.jpg') }}" class="card-img">
                 <div class="card-img-overlay">
                     <h5>Pj. Gubernur Lampung Lantik 12 Pejabat</h5>
-                    <a href="#" class="btn btn-danger btn-sm">Baca Selengkapnya</a>
+                    <a href="{{ route('berita.detail') }}" class="btn btn-danger btn-sm">Baca Selengkapnya</a>
                 </div>
             </div>
         </div>
