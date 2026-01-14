@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.top-header {
+    background: #fff;
+}
+
+/* Navbar */
+.main-navbar {
+    background: #8B0C16;
+}
+.main-navbar .nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Hero */
+.hero {
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-overlay {
+    background: rgba(0,0,0,0.45);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+/* Berita */
+.berita-utama img {
+    height: 350px;
+    object-fit: cover;
+}
+.berita-utama .card-img-overlay {
+    background: linear-gradient(to top, rgba(0,0,0,.7), transparent);
+    color: #fff;
+}
+
+.berita-list {
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+.berita-list img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* Statistik */
+.statistik {
+    background: #1f2933;
+    color: #fff;
+    padding: 40px 0;
+}
