@@ -31,9 +31,7 @@
                 Sekdaprov Marindo Kurniawan menegaskan komitmen Pemerintah Provinsi
                 Lampung dalam memajukan infrastruktur olahraga...
             </p>
-            <a href="#" class="btn btn-danger btn-sm px-4">
-                Baca Selengkapnya
-            </a>
+            <a href="{{ route('berita.detail') }}" class="btn btn-danger mt-3">Baca Selengkapnya</a>
         </div>
     </div>
 
@@ -51,9 +49,7 @@
                     <p class="text-muted">
                         Sekdaprov Marindo Kurniawan menegaskan komitmen Pemerintah Provinsi Lampung...
                     </p>
-                    <a href="#" class="btn btn-danger btn-sm">
-                        Baca Selengkapnya
-                    </a>
+                    <a href="{{ route('berita.detail') }}" class="btn btn-danger mt-3">Baca Selengkapnya</a>
                 </div>
             </div>
         </div>
@@ -72,9 +68,7 @@
                     <p class="text-muted">
                         Pemerintah Provinsi Lampung terus memperkuat sinergi lintas sektor...
                     </p>
-                    <a href="#" class="btn btn-danger btn-sm">
-                        Baca Selengkapnya
-                    </a>
+                    <a href="{{ route('berita.detail') }}" class="btn btn-danger mt-3">Baca Selengkapnya</a>
                 </div>
             </div>
         </div>

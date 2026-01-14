@@ -25,20 +25,52 @@
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div id="navMenu" class="collapse navbar-collapse">
             <ul class="navbar-nav mx-auto">
-                <li class="nav-item"><a class="nav-link active" href="/">Beranda</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">PPID</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Berita</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Dokumen</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
+
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="/">
+                        Beranda
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PPID</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->is('berita*') ? 'active' : '' }}"
+                       href="{{ route('berita') }}">
+                        Berita
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dokumen</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontak</a>
+                </li>
+
             </ul>
         </div>
     </div>
 </nav>
+
 
 @yield('content')
 
