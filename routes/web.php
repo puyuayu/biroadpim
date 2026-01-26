@@ -11,3 +11,7 @@ Route::get('/berita/detail', function () {
 Route::get('/berita', function () {
     return view('berita.index');
 })->name('berita');
+
+Route::get('/kontak', function () {
+    return view('kontak.index');
+})->name('kontak');

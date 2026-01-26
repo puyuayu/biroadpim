@@ -30,9 +30,7 @@
             <ul class="navbar-nav mx-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="/">
-                        Beranda
-                    </a>
+                    <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="/">Beranda</a>
                 </li>
 
                 <li class="nav-item">
@@ -44,10 +42,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link {{ request()->is('berita*') ? 'active' : '' }}"
-                       href="{{ route('berita') }}">
-                        Berita
-                    </a>
+                    <a class="nav-link {{ request()->is('berita*') ? 'active' : '' }}"href="{{ route('berita') }}">Berita</a>
                 </li>
 
                 <li class="nav-item">
@@ -63,8 +58,9 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link {{ request()->is('kontak') ? 'active' : '' }}"href="{{ route('kontak') }}">Kontak</a>
                 </li>
+
 
             </ul>
         </div>
