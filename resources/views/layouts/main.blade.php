@@ -34,7 +34,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Profile</a>
+                    <a class="nav-link" href="#">Profil</a>
                 </li>
 
                 <li class="nav-item">
@@ -54,8 +54,9 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
+                    <a class="nav-link {{ request()->is('galeri') ? 'active' : '' }}"href="{{ route('galeri') }}">Galeri</a>
                 </li>
+
 
                 <li class="nav-item">
                     <a class="nav-link {{ request()->is('kontak') ? 'active' : '' }}"href="{{ route('kontak') }}">Kontak</a>
