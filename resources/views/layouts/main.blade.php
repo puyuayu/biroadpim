@@ -62,7 +62,6 @@
                     <a class="nav-link {{ request()->is('kontak') ? 'active' : '' }}"href="{{ route('kontak') }}">Kontak</a>
                 </li>
 
-
             </ul>
         </div>
     </div>

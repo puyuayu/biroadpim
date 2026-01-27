@@ -154,3 +154,34 @@ body {
 .galeri-card small {
     font-size: 12px;
 }
+
+/* NAVBAR */
+.navbar-custom {
+    background-color: #8b0e13;
+    padding: 14px 0;
+}
+
+.navbar-custom .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+    text-decoration: underline;
+}
+
+/* DROPDOWN */
+.dropdown-menu {
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 6px 20px rgba(0,0,0,.15);
+}
+
+.dropdown-item {
+    font-size: 14px;
+}
+
+.dropdown-item:hover {
+    background-color: #f3f3f3;
+}
