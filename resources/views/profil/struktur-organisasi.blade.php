@@ -11,7 +11,7 @@
         <p class="mb-0">
             Struktur organisasi Biro Administrasi Pimpinan Provinsi Lampung
         </p>
-    </div>
+    </div> 
 </section>
 
 <!-- KONTEN -->
