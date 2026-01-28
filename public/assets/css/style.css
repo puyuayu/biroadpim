@@ -185,3 +185,43 @@ body {
 .dropdown-item:hover {
     background-color: #f3f3f3;
 }
+
+/* PROFIL HERO */
+.profil-hero {
+    background: linear-gradient(90deg, #8b0e13, #c71c1c);
+    padding: 60px 0;
+}
+
+.profil-box {
+    background: rgba(220,0,0,.85);
+    color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.profil-box h4 {
+    font-weight: 700;
+}
+
+/* VISI MISI */
+.visi-card {
+    background: #8b0e13;
+    color: #fff;
+    padding: 30px;
+    min-height: 170px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+/* TUGAS */
+.tugas-pokok {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.tugas-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}

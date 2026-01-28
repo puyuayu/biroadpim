@@ -32,15 +32,17 @@
                         Profil
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Biro Adpim</a></li>
-                        <li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
-                        <li><a class="dropdown-item" href="#">Profil Kepala Biro</a></li>
-                        <li><a class="dropdown-item" href="#">SDM</a></li>
-                        <li><a class="dropdown-item" href="#">Daftar Urut Kepangkatan</a></li>
-                        <li><a class="dropdown-item" href="#">Statistik Kepegawaian</a></li>
-                        <li><a class="dropdown-item" href="#">SI-ANGGUN</a></li>
+                        <li><a class="dropdown-item" href="{{ route('profil.biro') }}">Biro Adpim</a></li>
+                        <li><a class="dropdown-item" href="{{ route('profil.struktur') }}">Struktur Organisasi</a></li>
+                        <li><a class="dropdown-item" href="{{ route('profil.kepala') }}">Profil Kepala Biro</a></li>
+                        <li><a class="dropdown-item" href="{{ route('profil.sdm') }}">SDM</a></li>
+                        <li><a class="dropdown-item" href="{{ route('profil.dukp') }}">Daftar Urut Kepangkatan</a></li>
+                        <li><a class="dropdown-item" href="{{ route('profil.statistik') }}">Statistik Kepegawaian</a></li>
+                        <li><a class="dropdown-item" href="{{ route('profil.sianggun') }}">SI-ANGGUN</a></li>
                     </ul>
                 </li>
+
+
 
                 <!-- DROPDOWN PPID -->
                 <li class="nav-item dropdown">
