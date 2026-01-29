@@ -63,5 +63,9 @@ Route::get('/agenda-harian/preview', function () {
     return view('dokumen.agenda-preview');
 })->name('agenda.preview');
 
+Route::get('/dokumen', function () {
+    return view('dokumen.index');
+})->name('dokumen.index');
+
 
 

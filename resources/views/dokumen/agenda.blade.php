@@ -34,7 +34,7 @@
                     <small class="text-muted">Biro Administrasi Pimpinan</small>
                 </div>
                 <div class="d-flex gap-2">
-                    <a href="{{ route('agenda.preview') }}" class="btn btn-success btn-sm px-4">Preview</a>
+                    <a href="{{ route('preview.global', ['type'=>'agenda'}}"class="btn btn-success btn-sm">Preview</a>
                     <a href="#" class="btn btn-danger btn-sm px-4">Download</a>
                 </div>
             </div>

@@ -91,7 +91,7 @@
                         Dokumen
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Dokumen</a></li>
+                        <li><a class="dropdown-item" href="{{ route('dokumen.index') }}">Dokumen</a></li>
                         <li><a class="dropdown-item" href="{{ route('agenda.harian') }}">Agenda Harian</a></li>
 
                     </ul>
