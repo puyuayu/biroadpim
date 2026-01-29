@@ -38,7 +38,7 @@
                         <li><a class="dropdown-item" href="{{ route('profil.sdm') }}">SDM</a></li>
                         <li><a class="dropdown-item" href="{{ route('profil.dukp') }}">Daftar Urut Kepangkatan</a></li>
                         <li><a class="dropdown-item" href="{{ route('profil.statistik') }}">Statistik Kepegawaian</a></li>
-                        <li><a class="dropdown-item" href="{{ route('profil.sianggun') }}">SI-ANGGUN</a></li>
+                        <li><a class="dropdown-item" href="{{ route('agenda.harian') }}">SI-ANGGUN</a></li>
                     </ul>
                 </li>
 
@@ -92,7 +92,8 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Dokumen</a></li>
-                        <li><a class="dropdown-item" href="#">Agenda</a></li>
+                        <li><a class="dropdown-item" href="{{ route('agenda.harian') }}">Agenda Harian</a></li>
+
                     </ul>
                 </li>
 

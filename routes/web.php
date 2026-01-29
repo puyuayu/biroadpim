@@ -55,7 +55,13 @@ Route::get('/profil/statistik-kepegawaian', function () {
     return view('profil.statistik');
 })->name('profil.statistik');
 
-Route::get('/profil/si-anggun', function () {
-    return view('profil.si-anggun');
-})->name('profil.sianggun');
+Route::get('/agenda-harian', function () {
+    return view('dokumen.agenda');
+})->name('agenda.harian');
+
+Route::get('/agenda-harian/preview', function () {
+    return view('dokumen.agenda-preview');
+})->name('agenda.preview');
+
+
 
