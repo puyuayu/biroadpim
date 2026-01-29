@@ -258,3 +258,14 @@ body {
     background: #ccc;
     border-radius: 50%;
 }
+
+.sdm-table th,
+.sdm-table td {
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.table-head {
+    background: #d9cde5;
+    font-weight: bold;
+}
