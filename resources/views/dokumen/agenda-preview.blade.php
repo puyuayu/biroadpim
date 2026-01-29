@@ -3,7 +3,8 @@
 @section('content')
 
 {{-- HEADER --}}
-<section class="py-5" style="background:#8b0000;">
+<section class="py-5" 
+    style="background: linear-gradient(90deg,#7a0000,#c41414);">
     <div class="container text-white">
         <h4 class="fw-bold mb-1">Preview Agenda Harian</h4>
         <p class="mb-0">Biro Administrasi Pimpinan Provinsi Lampung</p>
