@@ -1,7 +1,7 @@
 <!-- TOP HEADER -->
 <div class="top-header py-2">
     <div class="container d-flex align-items-center">
-        <img src="{{ asset('assets/img/logo-lampung.png') }}" height="55" class="me-3">
+        <img src="{{ asset('assets/img/logolampung.png') }}" height="55" class="me-3">
         <div>
             <h6 class="mb-0 fw-bold">Biro Administrasi Pimpinan</h6>
             <small>Pemerintah Provinsi Lampung</small>
@@ -76,12 +76,12 @@
                         Link
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Instagram</a></li>
-                        <li><a class="dropdown-item" href="#">Tiktok</a></li>
-                        <li><a class="dropdown-item" href="#">Twitter</a></li>
-                        <li><a class="dropdown-item" href="#">Youtube</a></li>
-                        <li><a class="dropdown-item" href="#">e-Sughat</a></li>
-                        <li><a class="dropdown-item" href="#">LPSE Lampung</a></li>
+                        <li><a class="dropdown-item" href="https://www.instagram.com/pemprovlampung_?igsh=MTVwbzlod2s1OGFzeA%3D%3D">Instagram</a></li>
+                        <li><a class="dropdown-item" href="https://www.tiktok.com/@pemprovlampung?_t=ZS-90kwxgfSEdu&_r=1">Tiktok</a></li>
+                        <li><a class="dropdown-item" href="https://x.com/pemprov_lampung">Twitter</a></li>
+                        <li><a class="dropdown-item" href="https://www.youtube.com/@ProvinsiLampung">Youtube</a></li>
+                        <li><a class="dropdown-item" href="https://e-sughat.lampungprov.go.id/surat-keluar/80c70ac1">e-Sughat</a></li>
+                        <li><a class="dropdown-item" href="https://lpseprovlampung.id/">LPSE Lampung</a></li>
                     </ul>
                 </li>
 

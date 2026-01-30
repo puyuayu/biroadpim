@@ -3,13 +3,14 @@
 @section('content')
 
 <!-- HERO BERITA -->
-<section class="hero" style="background-image: url('{{ asset('assets/img/hero.jpg') }}')">
-    <div class="hero-overlay">
-        <div class="container">
+<section class="hero" style="background-image: url('{{ asset('assets/img/headline.jpeg') }}')">
+    <div class="hero-overlay d-flex align-items-end">
+        <div class="container pb-5">
             <h2>Dua Pejabat Tinggi<br>Pemprov Lampung Dilantik</h2>
         </div>
     </div>
 </section>
+
 
 <!-- CONTENT -->
 <section class="container my-5">
@@ -23,7 +24,7 @@
                 27 Mei 2025 &nbsp;•&nbsp; KOMINFO &nbsp;•&nbsp; 257 Suka &nbsp;•&nbsp; 1 Komentar
             </div>
 
-            <img src="{{ asset('assets/img/berita1.jpg') }}" class="img-fluid rounded mb-4">
+            <img src="{{ asset('assets/img/headline.jpeg') }}" class="img-fluid rounded mb-4">
 
             <p><strong>BANDARLAMPUNG</strong> — Pemerintah Provinsi Lampung menggelar rapat Optimalisasi Pajak Alat Berat di Ruang Command Center...</p>
 
@@ -44,7 +45,7 @@
                 <div class="card-header fw-bold">Berita Terkini</div>
                 <div class="card-body">
                     <div class="sidebar-news">
-                        <img src="{{ asset('assets/img/berita2.jpg') }}">
+                        <img src="{{ asset('assets/img/headline.jpeg') }}">
                         <div>
                             <h6>Pemprov Lampung Gelar Rapat Pembahasan...</h6>
                             <small>08 Jan 2026</small>
@@ -52,7 +53,7 @@
                     </div>
 
                     <div class="sidebar-news">
-                        <img src="{{ asset('assets/img/berita2.jpg') }}">
+                        <img src="{{ asset('assets/img/headline.jpeg') }}">
                         <div>
                             <h6>Perkuat Pelayanan Bandara...</h6>
                             <small>08 Jan 2026</small>
@@ -60,7 +61,7 @@
                     </div>
 
                     <div class="sidebar-news">
-                        <img src="{{ asset('assets/img/berita2.jpg') }}">
+                        <img src="{{ asset('assets/img/headline.jpeg') }}">
                         <div>
                             <h6>Pastikan Kesiapan Layanan...</h6>
                             <small>08 Jan 2026</small>

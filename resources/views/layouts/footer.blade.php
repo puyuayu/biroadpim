@@ -30,9 +30,9 @@
 
             <div class="footer-social position-absolute">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/pemprov_lampung"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/@ProvinsiLampung"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/pemprovlampung_?igsh=MTVwbzlod2s1OGFzeA%3D%3D"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
 

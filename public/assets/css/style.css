@@ -155,20 +155,14 @@ body {
     font-size: 12px;
 }
 
-/* NAVBAR */
-.navbar-custom {
-    background-color: #8b0e13;
-    padding: 14px 0;
+/* JARAK MENU NAVBAR */
+.main-navbar .navbar-nav > li {
+    margin: 0 40px; /* jarak antar menu */
 }
 
-.navbar-custom .nav-link {
-    color: #fff !important;
-    font-weight: 500;
-}
-
-.navbar-custom .nav-link:hover,
-.navbar-custom .nav-link.active {
-    text-decoration: underline;
+.main-navbar .nav-link {
+    padding: 10px 2px !important;
+    white-space: nowrap;
 }
 
 /* DROPDOWN */
@@ -321,8 +315,17 @@ body {
 }
 
 footer {
+    margin-top: 60px;   /* JARAK DARI KONTEN */
     padding-top: 20px;
     padding-bottom: 15px;
+}
+
+footer {
+    margin-top: 70px;
+}
+
+main {
+    padding-bottom: 40px;
 }
 
 .footer-biro {
@@ -378,4 +381,37 @@ footer {
 
 .footer-social a:hover {
     color: #0d6efd;
+}
+
+.hero-slider img {
+    max-height: 420px;
+    object-fit: cover;
+}
+
+.headline-card {
+    position: relative;
+}
+
+.headline-overlay {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.berita-utama {
+    position: relative;
+    overflow: hidden;
+}
+
+.berita-overlay {
+    background: linear-gradient(to top, rgba(0,0,0,.7), transparent);
+    padding: 20px;
+}
+
+.berita-list img {
+    object-fit: cover;
+}
+
+.hero-slider {
+    margin-top: 30px; /* bisa 24–40px sesuai selera */
 }
