@@ -50,7 +50,7 @@
                         PPID
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Tentang PPID</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ppid.tentang') }}">Tentang PPID</a></li>
                         <li><a class="dropdown-item" href="#">Profil Struktur PPID</a></li>
                         <li><a class="dropdown-item" href="#">Tugas Wewenang PPID</a></li>
                         <li><a class="dropdown-item" href="#">Kegiatan PPID</a></li>

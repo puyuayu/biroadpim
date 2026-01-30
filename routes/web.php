@@ -67,5 +67,9 @@ Route::get('/dokumen', function () {
     return view('dokumen.index');
 })->name('dokumen.index');
 
+Route::get('/ppid/tentang', function () {
+    return view('ppid.tentang');
+})->name('ppid.tentang');
+
 
 

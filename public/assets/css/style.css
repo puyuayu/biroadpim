@@ -269,3 +269,53 @@ body {
     background: #d9cde5;
     font-weight: bold;
 }
+
+/* HERO */
+.ppid-hero {
+    position: relative;
+}
+
+.ppid-hero img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+
+/* SECTION */
+.ppid-section {
+    position: relative;
+    margin-top: -120px; /* INI KUNCI OVERLAP */
+    z-index: 10;
+}
+
+/* CARD */
+.ppid-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+/* BOX BUTTON */
+.ppid-box {
+    display: block;
+    padding: 30px;
+    text-align: center;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    color: #000;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.ppid-box:hover {
+    border-color: #8b0e13;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    transform: translateY(-3px);
+}
+
+.ppid-box h5 {
+    margin: 0;
+    font-weight: 600;
+}
