@@ -27,13 +27,13 @@
 
         <div class="row g-4">
             <div class="col-md-6">
-                <a href="#" class="ppid-box">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUnPo0A3VzEZFw0fwMG6NzFUgOP7-HmO5ToX-X2_ahD8NPRw/closedform" class="ppid-box">
                     <h5>Form Keberatan Atas Permohonan</h5>
                 </a>
             </div>
 
             <div class="col-md-6">
-                <a href="#" class="ppid-box">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhNHEDAEXOW56AnoUD2SIUCBtJxiO07y9EzB0tJQUDe1o2eg/viewform" class="ppid-box">
                     <h5>Form Permohonan Informasi Publik</h5>
                 </a>
             </div>

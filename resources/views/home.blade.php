@@ -52,24 +52,4 @@
     </div>
 </section>
 
-<!-- STATISTIK -->
-<section class="statistik">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-4">
-                <h2>0</h2>
-                <p>Jumlah Pengunjung</p>
-            </div>
-            <div class="col-md-4">
-                <h2>0</h2>
-                <p>Jumlah Berita</p>
-            </div>
-            <div class="col-md-4">
-                <h2>0</h2>
-                <p>Total Dokumen</p>
-            </div>
-        </div>
-    </div>
-</section>
-
 @endsection

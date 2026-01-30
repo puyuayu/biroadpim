@@ -319,3 +319,63 @@ body {
     margin: 0;
     font-weight: 600;
 }
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.footer-biro {
+    background: linear-gradient(180deg, #1f2a35, #1b2630);
+    color: #ffffff;
+    padding: 50px 0 30px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-stats {
+    padding: 12px 0;
+}
+
+.footer-stats h4 {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.footer-stats small {
+    font-size: 13px;
+}
+
+.footer-bottom {
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+.footer-copy {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-social a {
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+.footer-copy {
+    font-size: 13px;
+}
+
+.footer-social {
+    right: 0;
+    bottom: 0;
+}
+
+.footer-social a {
+    color: #ffffff;
+    font-size: 22px;
+    margin-left: 18px;
+    transition: 0.3s;
+}
+
+.footer-social a:hover {
+    color: #0d6efd;
+}
