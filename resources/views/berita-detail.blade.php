@@ -45,7 +45,7 @@
                 <div class="card-header fw-bold">Berita Terkini</div>
                 <div class="card-body">
                     <div class="sidebar-news">
-                        <img src="{{ asset('assets/img/headline.jpeg') }}">
+                        <img src="{{ asset('assets/img/berita.jpg') }}">
                         <div>
                             <h6>Pemprov Lampung Gelar Rapat Pembahasan...</h6>
                             <small>08 Jan 2026</small>
@@ -53,7 +53,7 @@
                     </div>
 
                     <div class="sidebar-news">
-                        <img src="{{ asset('assets/img/headline.jpeg') }}">
+                        <img src="{{ asset('assets/img/berita.jpg') }}">
                         <div>
                             <h6>Perkuat Pelayanan Bandara...</h6>
                             <small>08 Jan 2026</small>
@@ -61,7 +61,7 @@
                     </div>
 
                     <div class="sidebar-news">
-                        <img src="{{ asset('assets/img/headline.jpeg') }}">
+                        <img src="{{ asset('assets/img/berita.jpg') }}">
                         <div>
                             <h6>Pastikan Kesiapan Layanan...</h6>
                             <small>08 Jan 2026</small>

@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7">
-                <img src="{{ asset('assets/img/biro-adpim.jpg') }}" class="img-fluid rounded">
+                <img src="{{ asset('assets/img/tentang.jpg') }}" class="img-fluid rounded">
             </div>
             <div class="col-md-5">
                 <div class="profil-box">

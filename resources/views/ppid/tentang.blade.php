@@ -4,7 +4,7 @@
 
 {{-- HERO IMAGE --}}
 <section class="ppid-hero">
-    <img src="{{ asset('assets/img/image.png') }}" alt="PPID Banner">
+    <img src="{{ asset('assets/img/tentang.jpg') }}" alt="PPID Banner">
 </section>
 
 {{-- TENTANG PPID CARD --}}

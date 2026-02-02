@@ -415,3 +415,64 @@ main {
 .hero-slider {
     margin-top: 30px; /* bisa 24–40px sesuai selera */
 }
+
+.headline-card {
+    height: 420px;
+    overflow: hidden;
+}
+
+.headline-card img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.headline-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.1)
+    );
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.headline-btn {
+    width: fit-content;
+    padding: 6px 18px;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+}
+
+/* ======================
+   BERITA
+====================== */
+
+.berita-utama-img {
+    height: 420px;
+    object-fit: cover;
+}
+
+.berita-list .berita-thumb {
+    width: 100%;
+    height: 190px;        /* FOTO JADI BESAR */
+    object-fit: cover;
+}
+
+/* Biar tinggi card rapi */
+.berita-list .row {
+    min-height: 200px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .berita-list .berita-thumb {
+        height: 220px;
+        border-radius: 6px 6px 0 0;
+    }
+}
+
